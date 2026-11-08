@@ -6,7 +6,7 @@ def page(fn,title,desc,body):
 <html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} | Pulsar Digital</title><meta name="description" content="{desc}">
-<link rel="stylesheet" href="css/styles.css"></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap"><link rel="stylesheet" href="css/styles.css"></head><body>
 <header class="hd"><div class="wrap bar"><a class="logo" href="index.html">Pulsar<b>.</b>Digital</a>
 <button id="mb" aria-label="Menú">☰</button><nav id="nav">{nav}<a class="btn sm" href="contacto.html">Agendar llamada</a></nav></div></header>
 <main>{body}</main>
